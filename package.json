@@ -1,0 +1,38 @@
+{
+  "name": "request-node",
+  "version": "1.0.0",
+  "description": "Fast and simple http request for nodejs.",
+  "keywords": [
+    "http",
+    "request",
+    "https",
+    "node"
+  ],
+  "license": "Apache-2.0",
+  "main": "./index",
+  "author": "jun.li <514332157@qq.com>",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lasting0001/request-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/lasting0001/request-node/issues"
+  },
+  "engines": {
+    "node": ">=0.8"
+  },
+  "scripts": {
+    "test": "vows"
+  },
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "bufferhelper": "^0.2.1"
+  },
+  "devDependencies": {},
+  "browser": {
+    "os": false
+  },
+  "homepage": "https://github.com/lasting0001/request-node#readme"
+}
